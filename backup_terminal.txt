@@ -1,0 +1,487 @@
+21:45:45] Gerando instâncias de grafos...
+========================================
+  GERADOR DE INSTÂNCIAS DE GRAFOS
+========================================
+
+
+Vértices: 10 (Emax = 45)
+  esparso        :    15 arestas ( 33.3%) → 10 instâncias ✓
+  medio_esparso  :    30 arestas ( 66.7%) → 10 instâncias ✓
+  medio          :    13 arestas ( 28.9%) → 10 instâncias ✓
+  medio_denso    :    27 arestas ( 60.0%) → 10 instâncias ✓
+  denso          :    38 arestas ( 84.4%) → 10 instâncias ✓
+
+Vértices: 20 (Emax = 190)
+  esparso        :    30 arestas ( 15.8%) → 10 instâncias ✓
+  medio_esparso  :    60 arestas ( 31.6%) → 10 instâncias ✓
+  medio          :    57 arestas ( 30.0%) → 10 instâncias ✓
+  medio_denso    :   114 arestas ( 60.0%) → 10 instâncias ✓
+  denso          :   161 arestas ( 84.7%) → 10 instâncias ✓
+
+Vértices: 30 (Emax = 435)
+  esparso        :    45 arestas ( 10.3%) → 10 instâncias ✓
+  medio_esparso  :    90 arestas ( 20.7%) → 10 instâncias ✓
+  medio          :   130 arestas ( 29.9%) → 10 instâncias ✓
+  medio_denso    :   261 arestas ( 60.0%) → 10 instâncias ✓
+  denso          :   369 arestas ( 84.8%) → 10 instâncias ✓
+
+Vértices: 40 (Emax = 780)
+  esparso        :    60 arestas (  7.7%) → 10 instâncias ✓
+  medio_esparso  :   120 arestas ( 15.4%) → 10 instâncias ✓
+  medio          :   234 arestas ( 30.0%) → 10 instâncias ✓
+  medio_denso    :   468 arestas ( 60.0%) → 10 instâncias ✓
+  denso          :   663 arestas ( 85.0%) → 10 instâncias ✓
+
+Vértices: 50 (Emax = 1225)
+  esparso        :    75 arestas (  6.1%) → 10 instâncias ✓
+  medio_esparso  :   150 arestas ( 12.2%) → 10 instâncias ✓
+  medio          :   367 arestas ( 30.0%) → 10 instâncias ✓
+  medio_denso    :   735 arestas ( 60.0%) → 10 instâncias ✓
+  denso          :  1041 arestas ( 85.0%) → 10 instâncias ✓
+
+========================================
+Total: 5 tamanhos × 5 tipos × 10 instâncias
+     = 250 arquivos gerados
+
+Arquivos salvos em: ./instancias/
+========================================
+✓ Geradas 250 instâncias
+
+[21:45:45] Executando experimentos...
+======================================================================
+           EXECUTOR DE EXPERIMENTOS - CICLO HAMILTONIANO
+======================================================================
+
+Encontrados 250 arquivos de teste
+Executável: ./solucao
+Salvando em: resultados_experimento.csv
+
+[  1/250] denso_v10_inst1.txt                      ✓ 3 métodos
+[2  /250] denso_v10_inst10.txt                     ✓ 3 métodos
+[3  /250] denso_v10_inst2.txt                      ✓ 3 métodos
+[4  /250] denso_v10_inst3.txt                      ✓ 3 métodos
+[5  /250] denso_v10_inst4.txt                      ✓ 3 métodos
+[6  /250] denso_v10_inst5.txt                      ✓ 3 métodos
+[7  /250] denso_v10_inst6.txt                      ✓ 3 métodos
+[8  /250] denso_v10_inst7.txt                      ✓ 3 métodos
+[9  /250] denso_v10_inst8.txt                      ✓ 3 métodos
+[10 /250] denso_v10_inst9.txt                      ✓ 3 métodos
+[11 /250] denso_v20_inst1.txt                      ✓ 3 métodos
+[12 /250] denso_v20_inst10.txt                     ✓ 3 métodos
+[13 /250] denso_v20_inst2.txt                      ✓ 3 métodos
+[14 /250] denso_v20_inst3.txt                      ✓ 3 métodos
+[15 /250] denso_v20_inst4.txt                      ✓ 3 métodos
+[16 /250] denso_v20_inst5.txt                      ✓ 3 métodos
+[17 /250] denso_v20_inst6.txt                      ✓ 3 métodos
+[18 /250] denso_v20_inst7.txt                      ✓ 3 métodos
+[19 /250] denso_v20_inst8.txt                      ✓ 3 métodos
+[20 /250] denso_v20_inst9.txt                      ✓ 3 métodos
+[21 /250] denso_v30_inst1.txt                      ✓ 2 métodos
+[22 /250] denso_v30_inst10.txt                     ✓ 2 métodos
+[23 /250] denso_v30_inst2.txt                      ✓ 2 métodos
+[24 /250] denso_v30_inst3.txt                      ✓ 2 métodos
+[25 /250] denso_v30_inst4.txt                      ✓ 2 métodos
+[26 /250] denso_v30_inst5.txt                      ✓ 2 métodos
+[27 /250] denso_v30_inst6.txt                      ✓ 2 métodos
+[28 /250] denso_v30_inst7.txt                      ✓ 2 métodos
+[29 /250] denso_v30_inst8.txt                      ✓ 2 métodos
+[30 /250] denso_v30_inst9.txt                      ✓ 2 métodos
+[31 /250] denso_v40_inst1.txt                      ✓ 2 métodos
+[32 /250] denso_v40_inst10.txt                     ✓ 2 métodos
+[33 /250] denso_v40_inst2.txt                      ✓ 2 métodos
+[34 /250] denso_v40_inst3.txt                      ✓ 2 métodos
+[35 /250] denso_v40_inst4.txt                      ✓ 2 métodos
+[36 /250] denso_v40_inst5.txt                      ✓ 2 métodos
+[37 /250] denso_v40_inst6.txt                      ✓ 2 métodos
+[38 /250] denso_v40_inst7.txt                      ✓ 2 métodos
+[39 /250] denso_v40_inst8.txt                      ✓ 2 métodos
+[40 /250] denso_v40_inst9.txt                      ✓ 2 métodos
+[41 /250] denso_v50_inst1.txt                      ✓ 2 métodos
+[42 /250] denso_v50_inst10.txt                     ✓ 2 métodos
+[43 /250] denso_v50_inst2.txt                      ✓ 2 métodos
+[44 /250] denso_v50_inst3.txt                      ✓ 2 métodos
+[45 /250] denso_v50_inst4.txt                      ✓ 2 métodos
+[46 /250] denso_v50_inst5.txt                      ✓ 2 métodos
+[47 /250] denso_v50_inst6.txt                      ✓ 2 métodos
+[48 /250] denso_v50_inst7.txt                      ✓ 2 métodos
+[49 /250] denso_v50_inst8.txt                      ✓ 2 métodos
+[50 /250] denso_v50_inst9.txt                      ✓ 2 métodos
+[51 /250] esparso_v10_inst1.txt                    ✓ 3 métodos
+[52 /250] esparso_v10_inst10.txt                   ✓ 3 métodos
+[53 /250] esparso_v10_inst2.txt                    ✓ 3 métodos
+[54 /250] esparso_v10_inst3.txt                    ✓ 3 métodos
+[55 /250] esparso_v10_inst4.txt                    ✓ 3 métodos
+[56 /250] esparso_v10_inst5.txt                    ✓ 3 métodos
+[57 /250] esparso_v10_inst6.txt                    ✓ 3 métodos
+[58 /250] esparso_v10_inst7.txt                    ✓ 3 métodos
+[59 /250] esparso_v10_inst8.txt                    ✓ 3 métodos
+[60 /250] esparso_v10_inst9.txt                    ✓ 3 métodos
+[61 /250] esparso_v20_inst1.txt                    ✓ 3 métodos
+[62 /250] esparso_v20_inst10.txt                   ✓ 3 métodos
+[63 /250] esparso_v20_inst2.txt                    ✓ 3 métodos
+[64 /250] esparso_v20_inst3.txt                    ✓ 3 métodos
+[65 /250] esparso_v20_inst4.txt                    ✓ 3 métodos
+[66 /250] esparso_v20_inst5.txt                    ✓ 3 métodos
+[67 /250] esparso_v20_inst6.txt                    ✓ 3 métodos
+[68 /250] esparso_v20_inst7.txt                    ✓ 3 métodos
+[69 /250] esparso_v20_inst8.txt                    ✓ 3 métodos
+[70 /250] esparso_v20_inst9.txt                    ✓ 3 métodos
+[71 /250] esparso_v30_inst1.txt                    ✓ 2 métodos
+[72 /250] esparso_v30_inst10.txt                   ✓ 2 métodos
+[73 /250] esparso_v30_inst2.txt                    ✓ 2 métodos
+[74 /250] esparso_v30_inst3.txt                    ✓ 2 métodos
+[75 /250] esparso_v30_inst4.txt                    ✓ 2 métodos
+[76 /250] esparso_v30_inst5.txt                    ✓ 2 métodos
+[77 /250] esparso_v30_inst6.txt                    ✓ 2 métodos
+[78 /250] esparso_v30_inst7.txt                    ✓ 2 métodos
+[79 /250] esparso_v30_inst8.txt                    ✓ 2 métodos
+[80 /250] esparso_v30_inst9.txt                    ✓ 2 métodos
+[81 /250] esparso_v40_inst1.txt                    ✓ 2 métodos
+[82 /250] esparso_v40_inst10.txt                   ✓ 2 métodos
+[83 /250] esparso_v40_inst2.txt                    ✓ 2 métodos
+[84 /250] esparso_v40_inst3.txt                    ✓ 2 métodos
+[85 /250] esparso_v40_inst4.txt                    ✓ 2 métodos
+[86 /250] esparso_v40_inst5.txt                    ✓ 2 métodos
+[87 /250] esparso_v40_inst6.txt                    ✓ 2 métodos
+[88 /250] esparso_v40_inst7.txt                    ✓ 2 métodos
+[89 /250] esparso_v40_inst8.txt                    ✓ 2 métodos
+[90 /250] esparso_v40_inst9.txt                    ✓ 2 métodos
+[91 /250] esparso_v50_inst1.txt                    ✓ 2 métodos
+[92 /250] esparso_v50_inst10.txt                   ✓ 2 métodos
+[93 /250] esparso_v50_inst2.txt                    
+
+Experimentos concluídos (184 resultados)
+
+[22:15:45] Analisando resultados...
+✓ Análise concluída (salva em relatorio_analise.txt)
+
+======================================================================
+======================================================================
+              ANÁLISE DE RESULTADOS - CICLO HAMILTONIANO
+======================================================================
+
+Carregadas 185 linhas de dados
+======================================================================
+
+TABELA 1: TEMPO MÉDIO DE EXECUÇÃO (ms)
+----------------------------------------------------------------------
+
+esparso:
+  V   |              Backtracking |         Backtracking+Poda |             Prog_Dinamica
+  --------------------------------------------------------------------------------------------------
+   10 |              0.18 ± 0.14 |              0.45 ± 0.36 |              0.34 ± 0.05 | 
+   20 |              7.49 ± 4.21 |             19.06 ± 6.27 |             87.26 ± 1.43 | 
+   30 |            378.75 ± 9.02 |           1051.95 ± 7.74 |                         - | 
+
+denso:
+  V   |              Backtracking |         Backtracking+Poda |             Prog_Dinamica
+  --------------------------------------------------------------------------------------------------
+   10 |              0.00 ± 0.00 |              0.01 ± 0.00 |              0.78 ± 0.24 | 
+   20 |              0.00 ± 0.00 |              0.02 ± 0.01 |           542.49 ± 12.69 | 
+   30 |              0.01 ± 0.00 |              0.05 ± 0.01 |                         - | 
+   40 |              0.02 ± 0.01 |              0.18 ± 0.08 |                         - | 
+   50 |              0.07 ± 0.03 |              0.53 ± 0.11 |                         - | 
+
+
+TABELA 2: NÚMERO MÉDIO DE ITERAÇÕES
+----------------------------------------------------------------------
+
+esparso:
+  V   |         Backtracking |    Backtracking+Poda
+  --------------------------------------------------
+   10 |                  853 |                  831 | 
+   20 |                89081 |                89081 | 
+   30 |              4392118 |              4392118 | 
+
+denso:
+  V   |         Backtracking |    Backtracking+Poda
+  --------------------------------------------------
+   10 |                   10 |                   10 | 
+   20 |                   21 |                   20 | 
+   30 |                   31 |                   30 | 
+   40 |                   41 |                   40 | 
+   50 |                   50 |                   50 | 
+
+
+TABELA 3: SPEEDUP (Backtracking / Backtracking+Poda)
+----------------------------------------------------------------------
+
+esparso:
+  V   | Speedup | Redução Iterações (%)
+  ---------------------------------------------
+   10 |    0.39 |                  2.6%
+   20 |    0.39 |                  0.0%
+   30 |    0.36 |                  0.0%
+
+denso:
+  V   | Speedup | Redução Iterações (%)
+  ---------------------------------------------
+   10 |    0.19 |                  0.0%
+   20 |    0.16 |                  5.7%
+   30 |    0.11 |                  2.0%
+   40 |    0.11 |                  2.9%
+   50 |    0.13 |                  0.6%
+
+
+ESTATÍSTICAS GERAIS
+----------------------------------------------------------------------
+
+Maior tempo registrado:
+  esparso, V=30, Backtracking+Poda: 1059.69 ms
+
+======================================================================
+FIM DA ANÁLISE
+======================================================================
+======================================================================
+
+✓ PIPELINE COMPLETO EXECUTADO!
+
+Arquivos gerados:
+  - instancias/*.txt (grafos de teste)
+  - resultados_experimento.csv (dados brutos)
+  - relatorio_analise.txt (análise estatística)
+21:45:45] Gerando instâncias de grafos...
+========================================
+  GERADOR DE INSTÂNCIAS DE GRAFOS
+========================================
+
+
+Vértices: 10 (Emax = 45)
+  esparso        :    15 arestas ( 33.3%) → 10 instâncias ✓
+  medio_esparso  :    30 arestas ( 66.7%) → 10 instâncias ✓
+  medio          :    13 arestas ( 28.9%) → 10 instâncias ✓
+  medio_denso    :    27 arestas ( 60.0%) → 10 instâncias ✓
+  denso          :    38 arestas ( 84.4%) → 10 instâncias ✓
+
+Vértices: 20 (Emax = 190)
+  esparso        :    30 arestas ( 15.8%) → 10 instâncias ✓
+  medio_esparso  :    60 arestas ( 31.6%) → 10 instâncias ✓
+  medio          :    57 arestas ( 30.0%) → 10 instâncias ✓
+  medio_denso    :   114 arestas ( 60.0%) → 10 instâncias ✓
+  denso          :   161 arestas ( 84.7%) → 10 instâncias ✓
+
+Vértices: 30 (Emax = 435)
+  esparso        :    45 arestas ( 10.3%) → 10 instâncias ✓
+  medio_esparso  :    90 arestas ( 20.7%) → 10 instâncias ✓
+  medio          :   130 arestas ( 29.9%) → 10 instâncias ✓
+  medio_denso    :   261 arestas ( 60.0%) → 10 instâncias ✓
+  denso          :   369 arestas ( 84.8%) → 10 instâncias ✓
+
+Vértices: 40 (Emax = 780)
+  esparso        :    60 arestas (  7.7%) → 10 instâncias ✓
+  medio_esparso  :   120 arestas ( 15.4%) → 10 instâncias ✓
+  medio          :   234 arestas ( 30.0%) → 10 instâncias ✓
+  medio_denso    :   468 arestas ( 60.0%) → 10 instâncias ✓
+  denso          :   663 arestas ( 85.0%) → 10 instâncias ✓
+
+Vértices: 50 (Emax = 1225)
+  esparso        :    75 arestas (  6.1%) → 10 instâncias ✓
+  medio_esparso  :   150 arestas ( 12.2%) → 10 instâncias ✓
+  medio          :   367 arestas ( 30.0%) → 10 instâncias ✓
+  medio_denso    :   735 arestas ( 60.0%) → 10 instâncias ✓
+  denso          :  1041 arestas ( 85.0%) → 10 instâncias ✓
+
+========================================
+Total: 5 tamanhos × 5 tipos × 10 instâncias
+     = 250 arquivos gerados
+
+Arquivos salvos em: ./instancias/
+========================================
+✓ Geradas 250 instâncias
+
+[21:45:45] Executando experimentos...
+======================================================================
+           EXECUTOR DE EXPERIMENTOS - CICLO HAMILTONIANO
+======================================================================
+
+Encontrados 250 arquivos de teste
+Executável: ./solucao
+Salvando em: resultados_experimento.csv
+
+[  1/250] denso_v10_inst1.txt                      ✓ 3 métodos
+[2  /250] denso_v10_inst10.txt                     ✓ 3 métodos
+[3  /250] denso_v10_inst2.txt                      ✓ 3 métodos
+[4  /250] denso_v10_inst3.txt                      ✓ 3 métodos
+[5  /250] denso_v10_inst4.txt                      ✓ 3 métodos
+[6  /250] denso_v10_inst5.txt                      ✓ 3 métodos
+[7  /250] denso_v10_inst6.txt                      ✓ 3 métodos
+[8  /250] denso_v10_inst7.txt                      ✓ 3 métodos
+[9  /250] denso_v10_inst8.txt                      ✓ 3 métodos
+[10 /250] denso_v10_inst9.txt                      ✓ 3 métodos
+[11 /250] denso_v20_inst1.txt                      ✓ 3 métodos
+[12 /250] denso_v20_inst10.txt                     ✓ 3 métodos
+[13 /250] denso_v20_inst2.txt                      ✓ 3 métodos
+[14 /250] denso_v20_inst3.txt                      ✓ 3 métodos
+[15 /250] denso_v20_inst4.txt                      ✓ 3 métodos
+[16 /250] denso_v20_inst5.txt                      ✓ 3 métodos
+[17 /250] denso_v20_inst6.txt                      ✓ 3 métodos
+[18 /250] denso_v20_inst7.txt                      ✓ 3 métodos
+[19 /250] denso_v20_inst8.txt                      ✓ 3 métodos
+[20 /250] denso_v20_inst9.txt                      ✓ 3 métodos
+[21 /250] denso_v30_inst1.txt                      ✓ 2 métodos
+[22 /250] denso_v30_inst10.txt                     ✓ 2 métodos
+[23 /250] denso_v30_inst2.txt                      ✓ 2 métodos
+[24 /250] denso_v30_inst3.txt                      ✓ 2 métodos
+[25 /250] denso_v30_inst4.txt                      ✓ 2 métodos
+[26 /250] denso_v30_inst5.txt                      ✓ 2 métodos
+[27 /250] denso_v30_inst6.txt                      ✓ 2 métodos
+[28 /250] denso_v30_inst7.txt                      ✓ 2 métodos
+[29 /250] denso_v30_inst8.txt                      ✓ 2 métodos
+[30 /250] denso_v30_inst9.txt                      ✓ 2 métodos
+[31 /250] denso_v40_inst1.txt                      ✓ 2 métodos
+[32 /250] denso_v40_inst10.txt                     ✓ 2 métodos
+[33 /250] denso_v40_inst2.txt                      ✓ 2 métodos
+[34 /250] denso_v40_inst3.txt                      ✓ 2 métodos
+[35 /250] denso_v40_inst4.txt                      ✓ 2 métodos
+[36 /250] denso_v40_inst5.txt                      ✓ 2 métodos
+[37 /250] denso_v40_inst6.txt                      ✓ 2 métodos
+[38 /250] denso_v40_inst7.txt                      ✓ 2 métodos
+[39 /250] denso_v40_inst8.txt                      ✓ 2 métodos
+[40 /250] denso_v40_inst9.txt                      ✓ 2 métodos
+[41 /250] denso_v50_inst1.txt                      ✓ 2 métodos
+[42 /250] denso_v50_inst10.txt                     ✓ 2 métodos
+[43 /250] denso_v50_inst2.txt                      ✓ 2 métodos
+[44 /250] denso_v50_inst3.txt                      ✓ 2 métodos
+[45 /250] denso_v50_inst4.txt                      ✓ 2 métodos
+[46 /250] denso_v50_inst5.txt                      ✓ 2 métodos
+[47 /250] denso_v50_inst6.txt                      ✓ 2 métodos
+[48 /250] denso_v50_inst7.txt                      ✓ 2 métodos
+[49 /250] denso_v50_inst8.txt                      ✓ 2 métodos
+[50 /250] denso_v50_inst9.txt                      ✓ 2 métodos
+[51 /250] esparso_v10_inst1.txt                    ✓ 3 métodos
+[52 /250] esparso_v10_inst10.txt                   ✓ 3 métodos
+[53 /250] esparso_v10_inst2.txt                    ✓ 3 métodos
+[54 /250] esparso_v10_inst3.txt                    ✓ 3 métodos
+[55 /250] esparso_v10_inst4.txt                    ✓ 3 métodos
+[56 /250] esparso_v10_inst5.txt                    ✓ 3 métodos
+[57 /250] esparso_v10_inst6.txt                    ✓ 3 métodos
+[58 /250] esparso_v10_inst7.txt                    ✓ 3 métodos
+[59 /250] esparso_v10_inst8.txt                    ✓ 3 métodos
+[60 /250] esparso_v10_inst9.txt                    ✓ 3 métodos
+[61 /250] esparso_v20_inst1.txt                    ✓ 3 métodos
+[62 /250] esparso_v20_inst10.txt                   ✓ 3 métodos
+[63 /250] esparso_v20_inst2.txt                    ✓ 3 métodos
+[64 /250] esparso_v20_inst3.txt                    ✓ 3 métodos
+[65 /250] esparso_v20_inst4.txt                    ✓ 3 métodos
+[66 /250] esparso_v20_inst5.txt                    ✓ 3 métodos
+[67 /250] esparso_v20_inst6.txt                    ✓ 3 métodos
+[68 /250] esparso_v20_inst7.txt                    ✓ 3 métodos
+[69 /250] esparso_v20_inst8.txt                    ✓ 3 métodos
+[70 /250] esparso_v20_inst9.txt                    ✓ 3 métodos
+[71 /250] esparso_v30_inst1.txt                    ✓ 2 métodos
+[72 /250] esparso_v30_inst10.txt                   ✓ 2 métodos
+[73 /250] esparso_v30_inst2.txt                    ✓ 2 métodos
+[74 /250] esparso_v30_inst3.txt                    ✓ 2 métodos
+[75 /250] esparso_v30_inst4.txt                    ✓ 2 métodos
+[76 /250] esparso_v30_inst5.txt                    ✓ 2 métodos
+[77 /250] esparso_v30_inst6.txt                    ✓ 2 métodos
+[78 /250] esparso_v30_inst7.txt                    ✓ 2 métodos
+[79 /250] esparso_v30_inst8.txt                    ✓ 2 métodos
+[80 /250] esparso_v30_inst9.txt                    ✓ 2 métodos
+[81 /250] esparso_v40_inst1.txt                    ✓ 2 métodos
+[82 /250] esparso_v40_inst10.txt                   ✓ 2 métodos
+[83 /250] esparso_v40_inst2.txt                    ✓ 2 métodos
+[84 /250] esparso_v40_inst3.txt                    ✓ 2 métodos
+[85 /250] esparso_v40_inst4.txt                    ✓ 2 métodos
+[86 /250] esparso_v40_inst5.txt                    ✓ 2 métodos
+[87 /250] esparso_v40_inst6.txt                    ✓ 2 métodos
+[88 /250] esparso_v40_inst7.txt                    ✓ 2 métodos
+[89 /250] esparso_v40_inst8.txt                    ✓ 2 métodos
+[90 /250] esparso_v40_inst9.txt                    ✓ 2 métodos
+[91 /250] esparso_v50_inst1.txt                    ✓ 2 métodos
+[92 /250] esparso_v50_inst10.txt                   ✓ 2 métodos
+[93 /250] esparso_v50_inst2.txt                    
+
+Experimentos concluídos (184 resultados)
+
+[22:15:45] Analisando resultados...
+✓ Análise concluída (salva em relatorio_analise.txt)
+
+======================================================================
+======================================================================
+              ANÁLISE DE RESULTADOS - CICLO HAMILTONIANO
+======================================================================
+
+Carregadas 185 linhas de dados
+======================================================================
+
+TABELA 1: TEMPO MÉDIO DE EXECUÇÃO (ms)
+----------------------------------------------------------------------
+
+esparso:
+  V   |              Backtracking |         Backtracking+Poda |             Prog_Dinamica
+  --------------------------------------------------------------------------------------------------
+   10 |              0.18 ± 0.14 |              0.45 ± 0.36 |              0.34 ± 0.05 | 
+   20 |              7.49 ± 4.21 |             19.06 ± 6.27 |             87.26 ± 1.43 | 
+   30 |            378.75 ± 9.02 |           1051.95 ± 7.74 |                         - | 
+
+denso:
+  V   |              Backtracking |         Backtracking+Poda |             Prog_Dinamica
+  --------------------------------------------------------------------------------------------------
+   10 |              0.00 ± 0.00 |              0.01 ± 0.00 |              0.78 ± 0.24 | 
+   20 |              0.00 ± 0.00 |              0.02 ± 0.01 |           542.49 ± 12.69 | 
+   30 |              0.01 ± 0.00 |              0.05 ± 0.01 |                         - | 
+   40 |              0.02 ± 0.01 |              0.18 ± 0.08 |                         - | 
+   50 |              0.07 ± 0.03 |              0.53 ± 0.11 |                         - | 
+
+
+TABELA 2: NÚMERO MÉDIO DE ITERAÇÕES
+----------------------------------------------------------------------
+
+esparso:
+  V   |         Backtracking |    Backtracking+Poda
+  --------------------------------------------------
+   10 |                  853 |                  831 | 
+   20 |                89081 |                89081 | 
+   30 |              4392118 |              4392118 | 
+
+denso:
+  V   |         Backtracking |    Backtracking+Poda
+  --------------------------------------------------
+   10 |                   10 |                   10 | 
+   20 |                   21 |                   20 | 
+   30 |                   31 |                   30 | 
+   40 |                   41 |                   40 | 
+   50 |                   50 |                   50 | 
+
+
+TABELA 3: SPEEDUP (Backtracking / Backtracking+Poda)
+----------------------------------------------------------------------
+
+esparso:
+  V   | Speedup | Redução Iterações (%)
+  ---------------------------------------------
+   10 |    0.39 |                  2.6%
+   20 |    0.39 |                  0.0%
+   30 |    0.36 |                  0.0%
+
+denso:
+  V   | Speedup | Redução Iterações (%)
+  ---------------------------------------------
+   10 |    0.19 |                  0.0%
+   20 |    0.16 |                  5.7%
+   30 |    0.11 |                  2.0%
+   40 |    0.11 |                  2.9%
+   50 |    0.13 |                  0.6%
+
+
+ESTATÍSTICAS GERAIS
+----------------------------------------------------------------------
+
+Maior tempo registrado:
+  esparso, V=30, Backtracking+Poda: 1059.69 ms
+
+======================================================================
+FIM DA ANÁLISE
+======================================================================
+======================================================================
+
+✓ PIPELINE COMPLETO EXECUTADO!
+
+Arquivos gerados:
+  - instancias/*.txt (grafos de teste)
+  - resultados_experimento.csv (dados brutos)
+  - relatorio_analise.txt (análise estatística)
+
+
+
